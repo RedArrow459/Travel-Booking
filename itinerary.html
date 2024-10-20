@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerary Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Plan Your Itinerary</h1>
+    </header>
+
+    <section id="itinerary">
+        <h2>Create Your Travel Plan</h2>
+        <form action="#" method="POST">
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required><br>
+
+            <label for="start_date">Start Date:</label>
+            <input type="date" id="start_date" name="start_date" required><br>
+
+            <label for="end_date">End Date:</label>
+            <input type="date" id="end_date" name="end_date" required><br>
+
+            <label for="activities">Planned Activities:</label>
+            <textarea id="activities" name="activities" placeholder="List your activities" rows="5" required></textarea><br>
+
+            <button type="submit">Submit Itinerary</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Booking | <a href="index.html">Home</a> | <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>Welcome to Travel Booking</h1>
+        <p>Your one-stop solution for flights, hotels, and car rentals</p>
+    </header>
+
+    <section id="search">
+        <h2>Search for Destinations</h2>
+        <form action="search_results.html" method="GET">
+            <input type="text" name="destination" placeholder="Enter your destination" required>
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section id="map">
+        <h2>Explore Destinations</h2>
+        <div id="mapid"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Booking | <a href="contact.html">Contact Us</a> | <a href="itinerary.html">Plan Itinerary</a></p>
+    </footer>
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
